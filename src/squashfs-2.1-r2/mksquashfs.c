@@ -42,6 +42,8 @@
 #include "mksquashfs.h"
 #include <squashfs_fs.h>
 
+#include <sys/sysmacros.h>
+
 #ifdef SQUASHFS_TRACE
 #define TRACE(s, args...)		printf("mksquashfs: "s, ## args)
 #else

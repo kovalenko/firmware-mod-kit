@@ -21,6 +21,7 @@
 #include <sys/stat.h>
 #include <sys/mman.h>
 #include <sys/fcntl.h>
+#include <sys/sysmacros.h>
 
 // Application libraries
 #include <zlib.h>

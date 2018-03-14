@@ -391,6 +391,10 @@ free(thread);
 
 #endif
 
+#ifndef OF
+	#define OF(args) args
+#endif
+
 ZEXTERN int ZEXPORT compress2 OF((Bytef *dest,   uLongf *destLen,
                                   const Bytef *source, uLong sourceLen,
                                   int level))

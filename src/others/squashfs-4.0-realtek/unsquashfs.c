@@ -26,6 +26,7 @@
 #include "squashfs_compat.h"
 #include "read_fs.h"
 #include "compressor.h"
+#include <sys/sysmacros.h>
 
 #include <sys/sysinfo.h>
 

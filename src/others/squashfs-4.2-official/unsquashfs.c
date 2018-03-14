@@ -28,6 +28,7 @@
 #include "read_fs.h"
 #include "compressor.h"
 #include "xattr.h"
+#include <sys/sysmacros.h>
 
 #include <sys/sysinfo.h>
 #include <sys/types.h>
